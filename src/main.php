@@ -5,7 +5,7 @@ use pocketmine\Plugin\PluginBase;
 use pocketmine\utils\TextFormat;
 use pocketmine\player\Player;
 use command\Command;
-Class Main extends PluginBase():{
+Class Main extends PluginBase(): void{
     public function onLoad(): void{
         $this->getLogger()info->('Kindly Ask someone to shut up using' ..FORMAT:MINECOIN_GOLD.. '/kindshush')
     public function onEnable(): void{
