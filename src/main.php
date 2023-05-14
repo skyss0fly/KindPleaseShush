@@ -7,7 +7,7 @@ use pocketmine\player\Player;
 use command\Command;
 Class Main extends PluginBase{
     public function onLoad(): void{
-        $this->getLogger()info->('Kindly Ask someone to shut up using' ..FORMAT:MINECOIN_GOLD.. '/kindshush')
+        $this->getLogger()->info('Kindly Ask someone to shut up using' ..FORMAT:MINECOIN_GOLD.. '/kindshush')
     public function onEnable(): void{
         self::$instance = $this;
 		$this->getServer()->getCommandMap()->register("kindshush", new Command());
