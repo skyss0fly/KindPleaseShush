@@ -1,6 +1,6 @@
 <?php
 
-namespace skyss0fly\command;
+namespace skyss0fly\command\Command;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
@@ -10,7 +10,7 @@ use pocketmine\plugin\PluginOwned;
 use pocketmine\utils\TextFormat;
 use skyss0fly\KindPleaseShush\Main;
 
-class Command extends Command implements PluginOwned {
+class kindshush extends Command implements PluginOwned {
     
     public function __construct() {
         parent::__construct("KindShush", "Kindly shush someone");
