@@ -1,4 +1,5 @@
 name: KindPleaseShush
-author: skyss0fly
-version: 0.01
+main: skyss0fly\KindPleaseShush\Main
 api: 4.0.0
+version: 0.1
+author: skyss0fly
