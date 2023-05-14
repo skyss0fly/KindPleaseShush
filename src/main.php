@@ -1,5 +1,5 @@
 <?php
-namespace skyss0fly/KindPleaseShush;
+namespace skyss0fly\KindPleaseShush;
 
 use pocketmine\Plugin\PluginBase;
 use pocketmine\utils\TextFormat;
