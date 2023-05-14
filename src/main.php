@@ -8,15 +8,15 @@ use command\Command;
 
 Class Main extends PluginBase{
     
-    public function onLoad(): void{
+    public function onLoad():: voic{
         $this->getLogger()->info('Kindly Ask someone to shut up using /kindshush')
     }
-    public function onEnable(): void{
+    public function onEnable():: void{
         self::$instance = $this;
 		$this->getServer()->getCommandMap()->register("kindshush", new Command());
 	}
     
-    public function usecommand(): void {
+    public function usecommand()::void {
         $this->getServer()->broadcastMessage(..TEXTFORMAT:RED.. ..$playerusecommand.. 'Has Kindly asked you to shush @' ..$playertarget..)
     }
 }
