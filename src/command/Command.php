@@ -38,7 +38,7 @@ class Command extends Command implements PluginOwned {
         return true;
     }
 
-	public function getOwningPlugin() : PlayTime {
-		return PlayTime::getInstance();
+	public function getOwningPlugin() : KindPleaseShush {
+		return KindPleaseShush::getInstance();
 	}
 }
