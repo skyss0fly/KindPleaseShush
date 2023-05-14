@@ -1,6 +1,6 @@
 <?php
 
-namespace skyss0fly\KindPleaseShush\command\command;
+namespace skyss0fly\command;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
