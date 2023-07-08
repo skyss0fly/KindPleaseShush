@@ -13,7 +13,6 @@ Class Main extends PluginBase {
         $this->getLogger()->info('Kindly Ask someone to shut up using /kindshush');
 		}
     public function onEnable(): void{
-        self::$instance = $this;
 		$this->getServer()->getCommandMap()->register("kindshush", new Command());
 	
 	}
