@@ -29,7 +29,9 @@ Class Main extends PluginBase {
                 $sender->sendMessage("Player not found.");
                 return true;
 	    }
-	$this->getServer()->broadcastMessage($sender . "is kindly asking " . $targetPlayer . " to shut up. if you were wise, you would shush!");
+	    else {
+$this->getServer()->broadcastMessage($sender . "is kindly asking " . $targetPlayer . " to shut up. if you were wise, you would shush!");
+	    }
 	}}
 }
     
