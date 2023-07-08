@@ -13,7 +13,7 @@ Class Main extends PluginBase {
         $this->getLogger()->info('Kindly Ask someone to shut up using /kindshush');
 		}
     public function onEnable(): void{
-		$this->getServer()->getCommandMap()->register("kindshush", new Command());
+		$this->getLogger()->info("plugin loaded");
 	
 	}
    public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool {
