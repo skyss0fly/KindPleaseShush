@@ -8,7 +8,7 @@ permissions:
   shush.use:
     default: op
 commands:
-  coords:
+  kindshush:
     description: use this to shut up that one annoying kid
     permission: shush.use
     default: false
