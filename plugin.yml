@@ -1,5 +1,15 @@
 name: KindPleaseShush
-main: main
-api: 4.0.0
-version: 0.1
+main: src\Main
+version: 1.0
+api: 5.0.0
 author: skyss0fly
+description: ask someone to kindly shut up
+permissions:
+  shush.use:
+    default: op
+commands:
+  coords:
+    description: use this to shut up that one annoying kid
+    permission: shush.use
+    default: false
+  
