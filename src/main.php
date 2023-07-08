@@ -4,7 +4,8 @@ namespace skyss0fly\KindPleaseShush;
 use pocketmine\Plugin\PluginBase;
 use pocketmine\utils\TextFormat;
 use pocketmine\player\Player;
-use command\Command;
+use pocketmine\command\Command;
+use pocketmine\command\CommandSender;
 
 Class Main extends PluginBase{
     
